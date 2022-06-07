@@ -41,12 +41,12 @@
             this.employee_date = new System.Windows.Forms.Label();
             this.employee_logout = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.employee_home = new Explore.Home();
             this.employee_customer = new Explore.Customer();
             this.employee_booking = new Explore.booking();
             this.employee_return = new Explore.Return();
             this.employee_inventory = new Explore.Inventory();
             this.employee_reports = new Explore.Reports();
+            this.employee_home = new Explore.Home();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -230,14 +230,6 @@
             this.panel3.Size = new System.Drawing.Size(790, 460);
             this.panel3.TabIndex = 2;
             // 
-            // employee_home
-            // 
-            this.employee_home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.employee_home.Location = new System.Drawing.Point(0, 0);
-            this.employee_home.Name = "employee_home";
-            this.employee_home.Size = new System.Drawing.Size(790, 460);
-            this.employee_home.TabIndex = 5;
-            // 
             // employee_customer
             // 
             this.employee_customer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
@@ -280,6 +272,15 @@
             this.employee_reports.Name = "employee_reports";
             this.employee_reports.Size = new System.Drawing.Size(790, 460);
             this.employee_reports.TabIndex = 0;
+            // 
+            // employee_home
+            // 
+            this.employee_home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.employee_home.Location = new System.Drawing.Point(0, 0);
+            this.employee_home.Name = "employee_home";
+            this.employee_home.Size = new System.Drawing.Size(790, 460);
+            this.employee_home.TabIndex = 5;
+            this.employee_home.Load += new System.EventHandler(this.employee_home_Load);
             // 
             // Employee_dashboard
             // 

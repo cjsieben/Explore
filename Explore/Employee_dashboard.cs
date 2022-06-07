@@ -99,5 +99,10 @@ namespace Explore
             this.employee_inventory.Show();
             this.employee_reports.Hide();
         }
+
+        private void employee_home_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
