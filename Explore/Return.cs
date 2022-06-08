@@ -30,5 +30,10 @@ namespace Explore
             this.return_detail.Show();
             this.Hide();
         }
+
+        private void Return_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

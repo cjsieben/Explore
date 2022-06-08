@@ -33,5 +33,10 @@ namespace Explore
         {
 
         }
+
+        private void Name_Panel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
